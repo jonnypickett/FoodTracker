@@ -84,7 +84,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2220" y="348"/>
+            <point key="canvasLocation" x="2075" y="348"/>
         </scene>
         <!--Meals-->
         <scene sceneID="XMk-Sd-dI9">
@@ -121,6 +121,7 @@
                                     <outlet property="nameLabel" destination="7op-ek-jze" id="D1N-UX-8gi"/>
                                     <outlet property="photoImageView" destination="fNR-kJ-2Hq" id="aNF-ej-ynE"/>
                                     <outlet property="ratingControl" destination="57k-tM-lHS" id="mf6-UT-srD"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="3Rw-bF-7tR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -140,7 +141,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yvk-Ub-msy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="644" y="348"/>
+            <point key="canvasLocation" x="719" y="348"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Iun-oS-Jb7">
@@ -158,7 +159,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZM-ds-pyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-168" y="348"/>
+            <point key="canvasLocation" x="47" y="348"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UbR-g3-EAv">
@@ -176,10 +177,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QOX-od-oof" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1408" y="348"/>
+            <point key="canvasLocation" x="1395" y="697"/>
         </scene>
     </scenes>
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="3Rw-bF-7tR"/>
+    </inferredMetricsTieBreakers>
 </document>
