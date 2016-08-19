@@ -20,6 +20,7 @@
 		FBF456D11D652738001575C9 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF456CF1D652738001575C9 /* MealTableViewCell.swift */; };
 		FBF456D31D652B8D001575C9 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF456D21D652B8D001575C9 /* MealTableViewController.swift */; };
 		FBF456D41D652B8D001575C9 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF456D21D652B8D001575C9 /* MealTableViewController.swift */; };
+		FBF456D61D676C79001575C9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FBF456D51D676C79001575C9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FBF456CC1D64C0B7001575C9 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		FBF456CF1D652738001575C9 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		FBF456D21D652B8D001575C9 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		FBF456D51D676C79001575C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		FBF4569C1D612B91001575C9 = {
 			isa = PBXGroup;
 			children = (
+				FBF456D51D676C79001575C9 /* README.md */,
 				FBF456CA1D63E62E001575C9 /* RatingControl.swift */,
 				FBF456A71D612B91001575C9 /* FoodTracker */,
 				FBF456BC1D612B91001575C9 /* FoodTrackerTests */,
@@ -216,6 +219,7 @@
 				FBF456CD1D64C0B7001575C9 /* Meal.swift in Sources */,
 				FBF456AB1D612B91001575C9 /* MealViewController.swift in Sources */,
 				FBF456CB1D63E62E001575C9 /* RatingControl.swift in Sources */,
+				FBF456D61D676C79001575C9 /* README.md in Sources */,
 				FBF456A91D612B91001575C9 /* AppDelegate.swift in Sources */,
 				FBF456D31D652B8D001575C9 /* MealTableViewController.swift in Sources */,
 				FBF456D01D652738001575C9 /* MealTableViewCell.swift in Sources */,
@@ -413,6 +417,7 @@
 				FBF456C41D612B91001575C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBF456C51D612B91001575C9 /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				FBF456C71D612B91001575C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
